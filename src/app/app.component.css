@@ -1,0 +1,25 @@
+.nav {
+    margin-bottom: 65px;
+    overflow-x: hidden;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    padding: 0 10px;
+    border-right: 1px solid #e9e9e9;
+    opacity: .5;
+    transition: opacity .2s ease;
+}
+.nav-link:hover {
+    opacity: 1;
+}
+.nav-item{
+list-style: none;
+}
